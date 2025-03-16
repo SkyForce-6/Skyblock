@@ -1,0 +1,120 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: ""
+	id: "36B12C48EB72076F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2502FBA1A387305D"
+			tasks: [{
+				id: "7B6948CF904EDFF3"
+				item: { count: 1, id: "minecraft:bamboo" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2502FBA1A387305D"]
+			id: "2A5C23B047B3C3CB"
+			tasks: [{
+				id: "0A2958490F410C44"
+				item: { count: 1, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A5C23B047B3C3CB"]
+			id: "6CE582FC05737F9A"
+			tasks: [{
+				id: "7D2C63159D2B5E99"
+				item: { count: 1, id: "minecraft:oak_planks" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CE582FC05737F9A"]
+			id: "0C38AF0050C9C04E"
+			tasks: [{
+				id: "026D570B9F62C233"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C38AF0050C9C04E"]
+			id: "697F6163F330A045"
+			rewards: [{
+				id: "31B4A88A36D66D4E"
+				item: {
+					count: 1
+					id: "minecraft:oak_sapling"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B0D11A1763EF397"
+				item: { count: 1, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["697F6163F330A045"]
+			id: "6539F4DB6EFAE51F"
+			tasks: [{
+				id: "733E3FB31062DDD1"
+				item: { count: 1, id: "exdeorum:silkworm" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6539F4DB6EFAE51F"]
+			id: "64BA4864F0007CD2"
+			tasks: [{
+				id: "6A3CBD1DB49C8B46"
+				item: { count: 1, id: "minecraft:string" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"64BA4864F0007CD2"
+				"3A36741BD0BB260D"
+			]
+			id: "3C219A7A4411A364"
+			tasks: [{
+				id: "1E6A70F7FF20B1CC"
+				item: { count: 1, id: "exdeorum:string_mesh" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["697F6163F330A045"]
+			id: "3A36741BD0BB260D"
+			tasks: [{
+				id: "4C08419FE1EA91C5"
+				item: { count: 1, id: "exdeorum:oak_sieve" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+	]
+}
