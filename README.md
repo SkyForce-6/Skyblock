@@ -1,27 +1,28 @@
-# Skyblock ModPack
+# Skyblock Plugin 🌳
 
-Dieses Projekt enthält ein ModPack für Minecraft Skyblock Version 1.21.1.
+Ein Minecraft Skyblock-Plugin für Spigot 1.x.x. Baue deine Insel, handle mit anderen Spielern und meistere spannende Herausforderungen!
+
+## Funktionen
+- Eigene Insel erstellen
+- Insel-Upgrades
+- Challenges und Belohnungen
+- Handelssystem
 
 ## Installation
+1. Plugin herunterladen
+2. In den `plugins`-Ordner auf deinem Server legen
+3. Server neu starten
 
-1. Lade die neueste Version des ModPacks von [Releases](#) herunter.
-2. Extrahiere das ModPack in dein Minecraft-Verzeichnis.
-3. Starte Minecraft und wähle das ModPack im Launcher aus.
+## Screenshots
+![Screenshot](Link_zu_Screenshot)
 
-## Mods Liste
-
-Eine vollständige Liste der enthaltenen Mods findest du in der Datei [ModList.md](ModList.md).
+## Anforderungen
+- Java 17+
+- Minecraft 1.xx
+- Spigot / PaperMC
 
 ## Mitwirken
-
-Wenn du zu diesem Projekt beitragen möchtest, lies bitte die [CONTRIBUTING.md](CONTRIBUTING.md) Datei für Richtlinien.
-
-##Info
-
-Start mit 4 Sand + 1 Bambus
-Ziel: Über Quests zur vollständigen Welt aufbauen
-
+Pull Requests und Vorschläge sind willkommen!
 
 ## Lizenz
-
-Dieses Projekt steht unter der MIT Lizenz.
+MIT
