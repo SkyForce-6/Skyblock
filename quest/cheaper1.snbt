@@ -53,14 +53,6 @@
 		{
 			dependencies: ["0C38AF0050C9C04E"]
 			id: "697F6163F330A045"
-			rewards: [{
-				id: "31B4A88A36D66D4E"
-				item: {
-					count: 1
-					id: "minecraft:oak_sapling"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "5B0D11A1763EF397"
 				item: { count: 1, id: "minecraft:dirt" }
@@ -115,6 +107,36 @@
 			}]
 			x: -1.0d
 			y: 8.5d
+		}
+		{
+			id: "105E575E8AB5E4FD"
+			tasks: [{
+				id: "4C8A14FD2E41FD71"
+				item: { count: 1, id: "minecraft:moss_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			id: "61C593F740BD3C61"
+			tasks: [{
+				id: "6EB60AD3A7CEAE3E"
+				item: { count: 1, id: "minecraft:azalea" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			id: "12C16BABA47221C2"
+			tasks: [{
+				id: "05F3C2F3A8DDB532"
+				item: { count: 1, id: "watercondenser:watercondenser" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
 		}
 	]
 }
