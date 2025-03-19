@@ -16,6 +16,12 @@ Eine vollständige Liste der enthaltenen Mods findest du in der Datei [ModList.m
 
 Wenn du zu diesem Projekt beitragen möchtest, lies bitte die [CONTRIBUTING.md](CONTRIBUTING.md) Datei für Richtlinien.
 
+##Info
+
+Start mit 4 Sand + 1 Bambus
+Ziel: Über Quests zur vollständigen Welt aufbauen
+
+
 ## Lizenz
 
 Dieses Projekt steht unter der MIT Lizenz.
